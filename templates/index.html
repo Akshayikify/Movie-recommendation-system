@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch | Modern Movie Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+            <div class="logo-icon"></div>
+            <span>CineMatch</span>
+        </div>
+        <h1>Discover your next<br>favorite movie.</h1>
+        <p>A premium recommendation engine powered by the Apriori association algorithm and real-time data classification.</p>
+        
+        <div class="hero-btns">
+            <a href="{{ url_for('signup') }}" class="btn-primary">Get Started</a>
+            <a href="{{ url_for('login') }}" class="btn-outline">Sign In</a>
+        </div>
+    </div>
+
+    <div class="features" style="display: flex; justify-content: center; gap: 4rem; padding: 4rem 2rem; flex-wrap: wrap;">
+        <div class="feature-card" style="max-width: 250px; text-align: center;">
+            <div style="font-size: 2rem; margin-bottom: 1rem;">🚀</div>
+            <h3 style="margin-bottom: 0.5rem;">Fast Recommendations</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Instant associations based on thousands of user transactions.</p>
+        </div>
+        <div class="feature-card" style="max-width: 250px; text-align: center;">
+            <div style="font-size: 2rem; margin-bottom: 1rem;">🧠</div>
+            <h3 style="margin-bottom: 0.5rem;">Smart Identification</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Identifies and classifies movies even outside our dataset.</p>
+        </div>
+        <div class="feature-card" style="max-width: 250px; text-align: center;">
+            <div style="font-size: 2rem; margin-bottom: 1rem;">📊</div>
+            <h3 style="margin-bottom: 0.5rem;">Personal Dashboard</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Track your search history and save your favorite matches.</p>
+        </div>
+    </div>
+</body>
+</html>

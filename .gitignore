@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Database
+cine_match.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Flask
+instance/
+.webassets-cache
