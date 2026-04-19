@@ -2,7 +2,7 @@
 
 CineMatch is a premium movie recommendation engine that combines classical association rule mining with modern real-time data classification. It uses the **Apriori Algorithm** to find deep connections between movies based on user ratings and integrates the **TMDB API** for identifying new, real-time releases.
 
-![CineMatch Screenshot](https://raw.githubusercontent.com/Akshayikify/Dev-Projects/main/screenshot_placeholder.png) *(Replace with actual screenshot link)*
+![CineMatch Screenshot](https://drive.google.com/file/d/1SLZQnDKZQL5D7Je7BfdyLEGN0guwLncI/view?usp=sharing)
 
 ## 🌟 Features
 
@@ -72,9 +72,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 - `static/`: CSS styles and frontend assets.
 - `templates/`: HTML templates for Dashboard, Auth, and Landing page.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ✨ Acknowledgments
 
